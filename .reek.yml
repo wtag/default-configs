@@ -1,0 +1,22 @@
+---
+detectors:
+  UncommunicativeModuleName:
+    enabled: false
+
+  IrresponsibleModule:
+    enabled: false
+
+  FeatureEnvy:
+    enabled: false
+
+  UtilityFunction:
+    enabled: false
+
+  TooManyStatements:
+    enabled: true
+    exclude:
+    - initialize
+    max_statements: 8
+
+  NilCheck:
+    enabled: false

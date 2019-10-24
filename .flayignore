@@ -1,0 +1,3 @@
+# disable flay for specs, we have a lot of same looking specs we don't want to DRY-up
+spec/**/*.rb
+db/schema.rb

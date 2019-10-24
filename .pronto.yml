@@ -1,0 +1,7 @@
+all:
+  exclude:
+  - 'vendor/**/*'
+
+reek:
+  exclude:
+  - 'db/**/*'
