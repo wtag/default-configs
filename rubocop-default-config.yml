@@ -155,6 +155,10 @@ Metrics/MethodLength:
   Enabled: true
   CountComments: false
   Max: 10
+  ExcludedMethods:
+    - change
+    - up
+    - down
 Metrics/ParameterLists:
   Description: Avoid parameter lists longer than three or four parameters.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#too-many-params
