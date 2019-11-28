@@ -62,7 +62,7 @@ Naming/PredicateName:
   - is_
   - has_
   - have_
-  NamePrefixBlacklist:
+  ForbiddenPrefixes:
   - is_
   Exclude:
   - spec/**/*
@@ -252,7 +252,7 @@ Style/WhenThen:
 Lint/EachWithObjectArgument:
   Description: Check for immutable argument given to each_with_object.
   Enabled: true
-Lint/HandleExceptions:
+Lint/SuppressedException:
   Description: Don't suppress exception.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#dont-hide-exceptions
   Enabled: true
