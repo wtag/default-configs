@@ -262,7 +262,7 @@ Lint/LiteralAsCondition:
 Lint/LiteralInInterpolation:
   Description: Checks for literals used in interpolation.
   Enabled: true
-Metrics/LineLength:
+Layout/LineLength:
   Max: 110
 Style/FrozenStringLiteralComment:
   Description: Add the frozen_string_literal comment to the top of files to help transition from Ruby 2.3.0 to Ruby 3.0.
