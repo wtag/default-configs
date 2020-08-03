@@ -1,0 +1,2 @@
+# Rails - Ignore downloaded rubocop rules
+.rubocop-http*
