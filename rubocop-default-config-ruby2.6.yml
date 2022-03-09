@@ -7,3 +7,35 @@ AllCops:
   UseCache: false
   TargetRubyVersion: 2.6
   NewCops: enable
+
+Metrics/MethodLength:
+  Description: Avoid methods longer than 10 lines of code.
+  StyleGuide: "https://github.com/bbatsov/ruby-style-guide#short-methods"
+  Enabled: true
+  CountComments: false
+  Max: 10
+  IgnoredMethods:
+    - change
+    - up
+    - down
+
+Metrics/BlockLength:
+   Max: 25
+   Enabled: true
+   IgnoredMethods:
+     # RSpec
+     - describe
+     - context
+     - shared_examples
+     - shared_examples_for
+     - it_behaves_like
+     - it
+     # Grape
+     - resources
+     - params
+     - route_param
+     - namespace
+     - helpers
+     # FactoryGirl / FactoryBot
+     - factory
+     - FactoryGirl.define
