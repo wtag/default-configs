@@ -155,7 +155,7 @@ Metrics/MethodLength:
   Enabled: true
   CountComments: false
   Max: 10
-  IgnoredMethods:
+  ExcludedMethods:
     - change
     - up
     - down
@@ -173,7 +173,7 @@ Metrics/PerceivedComplexity:
 Metrics/BlockLength:
   Max: 25
   Enabled: true
-  IgnoredMethods:
+  ExcludedMethods:
     # RSpec
     - describe
     - context
