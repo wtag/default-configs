@@ -1,5 +1,11 @@
 ---
 detectors:
+  DuplicateMethodCall:
+    max_calls: 4
+
+  RepeatedConditional:
+    max_ifs: 4
+
   UncommunicativeModuleName:
     enabled: false
 
