@@ -1,5 +1,5 @@
 inherit_from:
-  - https://raw.githubusercontent.com/wtag/default-configs/master/rubocop-default-config-ruby2.6.yml
+  - https://raw.githubusercontent.com/wtag/default-configs/master/rubocop-default-config.yml
 AllCops:
   Exclude:
     - "vendor/**/*"
