@@ -1,0 +1,9 @@
+inherit_from:
+  - https://raw.githubusercontent.com/wtag/default-configs/master/rubocop-default-config.yml
+AllCops:
+  Exclude:
+    - "vendor/**/*"
+    - "db/schema.rb"
+  UseCache: false
+  TargetRubyVersion: 3.4
+  NewCops: enable
